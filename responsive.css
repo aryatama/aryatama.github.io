@@ -1,0 +1,193 @@
+@media screen and (max-width: 376px) {
+    .header-logo {
+        margin-bottom: 10px;
+    }
+    nav {
+        flex-direction: column;
+        justify-content:center;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        padding: 32px;
+      }
+     .header-list a {
+        margin: 0 2px;
+      }
+    
+    h1{
+        font-size: 36px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    .profile  {
+        width: 200px;
+        height: 200px;
+        margin: 32px 0;
+      }
+    .profile img {
+        width: 190px;
+      }
+    .hero { 
+        flex-direction: column-reverse;
+        justify-content: center;      
+      }
+    .greeting{
+        width: 100%;
+    }
+    .project{
+        margin: 40px 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .project img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .project-desc{
+        width: 100%;
+    }
+    .project-desc h2{
+    margin-bottom: 10px;
+    }
+    .project-button a{
+        margin-top: 12px;        
+      }
+
+    #contact .container {
+        padding: 32px 24px;
+    }
+    .text-cont{
+        flex-direction: column;
+    }
+ }
+  
+ /*untuk layar device berukuran sedang*/
+ @media screen and (min-width: 450px) and (max-width: 550px) {
+    
+    .container {
+        padding: 32px;
+      }
+     .header-list a {
+        margin: 0 3px;
+      }
+    
+    h1{
+        font-size: 46px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    .profile  {
+        width: 200px;
+        height: 200px;
+        margin: 32px 0;
+      }
+    .profile img {
+        width: 190px;
+      }
+    .hero { 
+        flex-direction: column-reverse;
+        justify-content: center;      
+      }
+    .greeting{
+        width: 100%;
+    }
+    .project{
+        margin: 40px 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .project img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .project-desc{
+        width: 100%;
+    }
+    .project-desc h2{
+    margin-bottom: 10px;
+    }
+    .project-button a{
+        margin-top: 12px;        
+      }
+
+    #contact .container {
+        padding: 32px 24px;
+    }
+    .text-cont{
+        flex-direction: column;
+    }
+ }
+  
+ /*untuk layar device berukuran besar*/
+ @media screen and (min-width: 550px) and (max-width: 1000px){
+    .container {
+        padding: 52px;
+      }
+     .header-list a {
+        margin: 0 8px;
+      }
+    
+    h1{
+        font-size: 48px;
+    }
+
+    p{
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    .profile  {
+        margin: 64px 0;
+      }
+    
+    .hero { 
+        flex-direction: column-reverse;
+        justify-content: center;      
+      }
+    .greeting{
+        width: 100%;
+    }
+
+    .hero { 
+        flex-direction: column-reverse;
+        justify-content: center;      
+      }
+    .greeting{
+        width: 100%;
+    }
+    .project{
+        margin: 40px 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .project img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .project-desc{
+        width: 100%;
+    }
+    .project-desc h2{
+    margin-bottom: 10px;
+    }
+    .project-button a{
+        margin-top: 12px;        
+      }
+      #contact .container {
+        padding: 32px 52px;
+    }
+ }
